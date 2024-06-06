@@ -1,0 +1,1039 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+header nav .nav-left {
+  display: flex;
+  align-items: center;
+}
+header nav .nav-left img {
+  width: 18%;
+  border-radius: 50%;
+}
+header nav .nav-left .yogard {
+  padding-left: 30px;
+}
+header nav .nav-left .yogard h1 {
+  color: black;
+}
+header nav .nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .nav-right ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
+header nav .nav-right ul li {
+  padding-left: 30px;
+  list-style: none;
+}
+header nav .nav-right ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+header nav .nav-right .all-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .nav-right .all-buttons .btn-one {
+  padding-right: 20px;
+}
+header nav .nav-right .all-buttons .btn-one button {
+  padding: 20px 50px;
+  background-color: #66A901;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+}
+header nav .nav-right .all-buttons .btn-two button {
+  padding: 20px 25px;
+  background-color: #66A901;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+}
+header nav .nav-right .all-buttons .btn-two button i {
+  font-size: 25px;
+}
+
+main #section1 .section1-text {
+  display: flex;
+  justify-content: space-between;
+}
+main #section1 .section1-text .icons-first .box-icon {
+  border: 1px solid rgb(123, 122, 122);
+  border-radius: 50%;
+  padding: 12px 14px;
+  margin-bottom: 20px;
+}
+main #section1 .section1-text .icons-first .box-icon i {
+  font-size: 30px;
+  padding: 5px 0px 0px 5px;
+}
+main #section1 .section1-text .text-big {
+  text-align: center;
+}
+main #section1 .section1-text .text-big h1 {
+  font-size: 60px;
+}
+main #section1 .section1-text .text-big .next-btn {
+  display: flex;
+  text-align: center;
+  padding-top: 50px;
+}
+main #section1 .section1-text .text-big .next-btn .btn-three {
+  padding-right: 50px;
+}
+main #section1 .section1-text .text-big .next-btn .btn-three button {
+  padding: 15px 40px;
+  border-radius: 30px;
+  background-color: #66A901;
+  color: white;
+  border: none;
+}
+main #section1 .section1-text .text-big .next-btn .btn-four {
+  padding-right: 50px;
+}
+main #section1 .section1-text .text-big .next-btn .btn-four button {
+  border: none;
+  background-color: #66A901;
+  color: white;
+  padding: 15px 45px;
+  border-radius: 30px;
+}
+main #section2 .popular {
+  text-align: center;
+  padding: 20px 0px;
+}
+main #section2 .section2-text {
+  padding: 20px 0px;
+}
+main #section2 .section2-text ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main #section2 .section2-text ul li {
+  list-style: none;
+  font-size: 20px;
+}
+main #section2 .bigTextBoxs {
+  border-radius: 20px;
+  background-color: #66A901;
+  padding: 50px 30px 100px 30px;
+}
+main #section2 .bigTextBoxs h3 {
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+}
+main #section2 .bigTextBoxs .all-inputs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+main #section2 .bigTextBoxs .all-inputs .input-one button {
+  border: none;
+  border-radius: 30px;
+  color: gray;
+}
+main #section2 .bigTextBoxs .all-inputs .input-two button {
+  border: none;
+  border-radius: 30px;
+  color: gray;
+}
+main #section2 .bigTextBoxs .all-inputs2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+main #section2 .bigTextBoxs .all-inputs2 .input-one2 button {
+  border: none;
+  border-radius: 30px;
+  color: gray;
+}
+main #section2 .bigTextBoxs .all-inputs2 .input-two2 button {
+  border: none;
+  border-radius: 30px;
+  color: gray;
+}
+main #section2 .bigTextBoxs .next-button .btn-nexts button {
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  border: none;
+}
+main #section3 {
+  background-image: url("	https://assets.website-files.com/5dc013458b3107105f936d9a/5dc013458b31071d63936e0e_abstract-bg.svg");
+  padding: 30px 50px;
+}
+main #section3 .all-section3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main #section3 .all-section3 .boxs1 {
+  border-radius: 20px;
+  padding: 30px 50px;
+  background-color: white;
+}
+main #section3 .all-section3 .boxs1 .circle {
+  margin: 30px 90px 50px 90px;
+  border-radius: 50%;
+  background-color: #66A901;
+  color: white;
+  padding: 20px 15px;
+}
+main #section3 .all-section3 .boxs1 .circle img {
+  padding: 10px 20px;
+  margin: 0px;
+  border-radius: 50%;
+}
+main #section3 .all-section3 .boxs1 .circle2 {
+  margin: 30px 90px 50px 90px;
+  border-radius: 50%;
+  background-color: #66A901;
+  color: white;
+  padding: 20px 15px;
+}
+main #section3 .all-section3 .boxs1 .circle2 img {
+  padding: 10px 15px;
+  margin: 0px;
+  width: 100px;
+  border-radius: 50%;
+}
+main #section3 .all-section3 .boxs1 .who {
+  color: #66A901;
+  text-align: center;
+}
+main #section3 .all-section3 .boxs1 h3 {
+  text-align: center;
+}
+main #section3 .all-section3 .boxs1 p {
+  text-align: center;
+  font-size: 18px;
+}
+main #section3 .all-section3 .boxs1 .dif-btn {
+  text-align: center;
+}
+main #section3 .all-section3 .boxs1 .dif-btn button {
+  padding: 20px 55px;
+  background-color: #66A901;
+  color: white;
+  border-radius: 30px;
+  border: none;
+}
+main #section3 .all-section3 .images-box1 img {
+  width: 100%;
+  border-radius: 30px;
+}
+main #section4 {
+  background-image: url("https://assets.website-files.com/5dc013458b3107105f936d9a/5f2e93a30a9aeec1c0ddc65d_trainers-bg.jpg");
+}
+main #section4 .section4 .btn-people {
+  text-align: center;
+  border-radius: 50%;
+}
+main #section4 .section4 .btn-people button {
+  padding: 45px 35px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid gray;
+}
+main #section4 .section4 .all-trainers {
+  display: grid;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 20px;
+}
+main #section4 .section4 .all-trainers .trainer1 {
+  padding: 35px 30px;
+  border-radius: 30px;
+  background-color: white;
+}
+main #section4 .section4 .all-trainers .trainer1 img {
+  border-radius: 50%;
+  width: 100%;
+  text-align: center;
+  padding: 20px 100px 20px 100px;
+}
+main #section4 .section4 .all-trainers .trainer1 .trainerone {
+  text-align: center;
+  font-size: 15px;
+  color: #66A901;
+}
+main #section4 .section4 .all-trainers .trainer1 h3 {
+  text-align: center;
+}
+main #section4 .section4 .all-trainers .trainer1 p {
+  text-align: center;
+  font-size: 20px;
+}
+main #section4 .section4 .all-trainers .trainer1 .icons-second {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0px 20px 30px;
+}
+main #section4 .section4 .all-trainers .trainer1 .icons-second .box-icon1 {
+  border-radius: 50%;
+  background-color: #66A901;
+  color: white;
+  padding: 20px 30px;
+}
+main #section4 .section4 .all-trainers .trainer1 .icons-second .box-icon1 i {
+  font-size: 30px;
+}
+main #section4 .section4 .all-trainers .trainer1 .icons-second .box-icon {
+  border-radius: 50%;
+  background-color: #66A901;
+  color: white;
+  padding: 20px 25px;
+}
+main #section4 .section4 .all-trainers .trainer1 .icons-second .box-icon i {
+  font-size: 30px;
+}
+main #section4 .section4 .btn-people2 {
+  text-align: center;
+  border-radius: 50%;
+}
+main #section4 .section4 .btn-people2 button {
+  padding: 35px 65px 35px 35px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid gray;
+}
+main #section4 .section4 .btn-people2 button img {
+  width: 200%;
+}
+main #section5 {
+  padding: 30px 50px;
+  background-image: url("	https://assets.website-files.com/5dc013458b3107105f936d9a/5dc013458b31071d63936e0e_abstract-bg.svg");
+}
+main #section5 .all-section5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main #section5 .all-section5 .boxs2 {
+  border-radius: 20px;
+  padding: 50px 30px;
+  text-align: center;
+  background-color: white;
+}
+main #section5 .all-section5 .boxs2 .into {
+  padding: 10px 40px;
+}
+main #section5 .all-section5 .boxs2 .into .furce {
+  font-size: 18px;
+  font-size: 18px;
+  padding: 10px 0px;
+}
+main #section5 .all-section5 .boxs2 .into h6 {
+  font-size: 14px;
+  color: #66A901;
+}
+main #section5 .all-section5 .images-box1 img {
+  width: 100%;
+  border-radius: 30px;
+}
+main #section6 {
+  background-image: url("	https://assets.website-files.com/5dc013458b3107105f936d9a/5f107307b0d1f23ccacfa76f_schedule-bg.jpg");
+}
+main #section6 .btn-people {
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 50px;
+}
+main #section6 .btn-people button {
+  padding: 35px 35px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid gray;
+}
+main #section6 .section6-all {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+main #section6 .section6-all .divone1 {
+  display: flex;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+}
+main #section6 .section6-all .divone1 .mon .h3div {
+  padding: 25px 50px;
+  background-color: #66A901;
+  border: none;
+}
+main #section6 .section6-all .divone1 .mon .textsdiv {
+  padding: 25px 50px;
+  background-color: #F5F5F5;
+}
+main #section6 .section6-all .divone1 .mon .textsdiv p {
+  margin: 3px;
+  color: #66A901;
+}
+main #section6 .section6-all .divone1 .mon .textsdiv .ash {
+  margin: 0px;
+  color: black;
+}
+main #section6 .section6-all .divone1 .mon .textsdiv2 {
+  padding: 25px 50px;
+  background-color: white;
+}
+main #section6 .section6-all .divone1 .mon .textsdiv2 p {
+  margin: 3px;
+  color: #66A901;
+}
+main #section6 .section6-all .divone1 .mon .textsdiv2 .ash {
+  margin: 0px;
+  color: black;
+}
+main #section6 .section6-all .divone1 .tue .h3div {
+  padding: 25px 50px;
+  background-color: #66A901;
+  border: none;
+}
+main #section6 .section6-all .divone1 .tue .textsdiv {
+  padding: 25px 50px;
+  background-color: #F5F5F5;
+}
+main #section6 .section6-all .divone1 .tue .textsdiv p {
+  margin: 3px;
+  color: #66A901;
+}
+main #section6 .section6-all .divone1 .tue .textsdiv .ash {
+  margin: 0px;
+  color: black;
+}
+main #section6 .section6-all .divone1 .tue .textsdiv2 {
+  padding: 25px 50px;
+  background-color: white;
+}
+main #section6 .section6-all .divone1 .tue .textsdiv2 p {
+  margin: 3px;
+  color: #66A901;
+}
+main #section6 .section6-all .divone1 .tue .textsdiv2 .ash {
+  margin: 0px;
+  color: black;
+}
+main #section6 .section6-all .divone1 .tue .h3div2 {
+  padding: 25px 50px;
+  background-color: black;
+  border: none;
+}
+main #section6 .section6-all .divone1 .tue .textsdiv {
+  padding: 25px 50px;
+  background-color: #F5F5F5;
+}
+main #section6 .section6-all .divone1 .tue .textsdiv p {
+  margin: 3px;
+  color: #66A901;
+}
+main #section6 .section6-all .divone1 .tue .textsdiv .ash {
+  margin: 0px;
+  color: black;
+}
+main #section6 .section6-all .divone1 .tue .textsdiv2 {
+  padding: 25px 50px;
+  background-color: white;
+}
+main #section6 .section6-all .divone1 .tue .textsdiv2 p {
+  margin: 3px;
+  color: #66A901;
+}
+main #section6 .section6-all .divone1 .tue .textsdiv2 .ash {
+  margin: 0px;
+  color: black;
+}
+main #section6 .section6-all .divone1 .tue .textsdiv22 {
+  padding: 25px 50px;
+  background-color: black;
+}
+main #section6 .section6-all .divone1 .tue .textsdiv22 p {
+  margin: 3px;
+  color: #66A901;
+}
+main #section6 .section6-all .divone1 .tue .textsdiv22 .ash {
+  margin: 0px;
+  color: black;
+}
+main #section7 {
+  background-image: url("	https://assets.website-files.com/5dc013458b3107105f936d9a/5dc013458b31071d63936e0e_abstract-bg.svg");
+}
+main #section7 .all-basic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 60px;
+}
+main #section7 .all-basic .standart {
+  padding: 20px 15px;
+  text-align: center;
+}
+main #section7 .all-basic .standart .basic {
+  background-color: black;
+  padding: 50px 0px;
+  border-radius: 30px 30px 0px 0px;
+}
+main #section7 .all-basic .standart .basic h1 {
+  color: white;
+  text-align: center;
+}
+main #section7 .all-basic .standart .basic p {
+  color: gray;
+  text-align: center;
+}
+main #section7 .all-basic .standart .basic2 {
+  background-color: #66A901;
+  padding: 50px 0px;
+  border-radius: 30px 30px 0px 0px;
+}
+main #section7 .all-basic .standart .basic2 h1 {
+  color: white;
+  text-align: center;
+}
+main #section7 .all-basic .standart .basic2 p {
+  color: gray;
+  text-align: center;
+}
+main #section7 .all-basic .standart .textslast {
+  background-color: white;
+  padding: 30px 40px;
+}
+main #section7 .all-basic .standart .textslast .phase {
+  padding: 0px 0px 15px 0px;
+  font-size: 20px;
+  margin: 0px;
+}
+main #section7 .all-basic .standart .textslast p {
+  padding: 0px 0px 15px 0px;
+  font-size: 20px;
+  margin: 0px;
+}
+main #section7 .all-basic .standart .textslast .lorem {
+  padding: 0px 0px 15px 0px;
+  font-size: 15px;
+  margin: 0px;
+  color: #8A8A8A;
+}
+main #section7 .all-basic .standart .textslast .contact-btn button {
+  padding: 20px 55px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+main #section7 .all-basic .standart .textslast .contact-btn .colors {
+  padding: 20px 55px;
+  border-radius: 50px;
+  background-color: #66A901;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+main .btn-people {
+  text-align: center;
+  border-radius: 50%;
+}
+main .btn-people button {
+  padding: 35px 35px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid gray;
+}
+main #section8 {
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main #section8 .section8-left {
+  width: 50%;
+}
+main #section8 .section8-right {
+  padding: 30px 20px;
+  background-color: #292929;
+  text-align: center;
+  color: white;
+}
+main #section8 .section8-right .form {
+  display: flex;
+}
+main #section8 .section8-right .form .input1 {
+  padding: 30px 40px 30px 0px;
+}
+main #section8 .section8-right .form .input1 input {
+  padding: 20px 30px;
+  border-radius: 50px;
+  border: none;
+}
+main #section8 .section8-right .form2 input {
+  border-radius: 20px;
+}
+main #section8 .section8-right .form3 {
+  padding: 30px 0px;
+}
+main #section8 .section8-right .form3 button {
+  border-radius: 50px;
+  background-color: #66A901;
+  color: white;
+  border: none;
+  font-size: 18px;
+}
+main #section8 .section8-right .texts-p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+footer .all-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px;
+  background-color: black;
+  color: white;
+  gap: 40px;
+}
+footer .all-footer .footer-left {
+  display: flex;
+  align-items: center;
+}
+footer .all-footer .footer-center .icons-second {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+footer .all-footer .footer-center .icons-second .box-icon1 {
+  border-radius: 50%;
+  background-color: #66A901;
+  color: white;
+  padding: 20px 30px;
+}
+footer .all-footer .footer-center .icons-second .box-icon1 i {
+  font-size: 30px;
+}
+footer .all-footer .footer-center .icons-second .box-icon {
+  padding-left: 50px;
+  border-radius: 50%;
+  background-color: #66A901;
+  color: white;
+  padding: 20px 25px;
+}
+footer .all-footer .footer-center .icons-second .box-icon i {
+  font-size: 30px;
+}
+footer .all-footer .footer-right p {
+  font-size: 20px;
+}
+
+@media (max-width: 1440px) {
+  nav {
+    display: flex;
+  }
+  nav .nav-left {
+    display: flex;
+  }
+  nav .nav-right {
+    display: flex;
+  }
+  nav .nav-right ul {
+    padding-right: 50px;
+  }
+  #section1 {
+    padding: 80px 50px;
+  }
+  #section1 .btn-nexts {
+    padding-left: 420px;
+  }
+  #section1 .section1-text {
+    display: flex;
+  }
+  #section1 .next-btn {
+    margin-left: 220px;
+  }
+  #section2 {
+    padding: 50px 100px;
+  }
+  #section2 .all-inputs .input-one {
+    margin-left: 50px;
+  }
+  #section2 .all-inputs .input-one button {
+    border: none;
+    padding: 20px 120px;
+  }
+  #section2 .all-inputs .input-two {
+    margin-left: 50px;
+  }
+  #section2 .all-inputs .input-two button {
+    border: none;
+    padding: 20px 135px;
+  }
+  #section2 .all-inputs2 .input-one2 {
+    margin-left: 50px;
+  }
+  #section2 .all-inputs2 .input-one2 button {
+    border: none;
+    padding: 20px 135px;
+  }
+  #section2 .all-inputs2 .input-two2 {
+    margin-left: 50px;
+  }
+  #section2 .all-inputs2 .input-two2 button {
+    border: none;
+    padding: 20px 140px;
+    border-radius: 30px;
+    color: gray;
+  }
+  #section2 .next-button .btn-nexts {
+    margin-left: 410px;
+  }
+  #section2 .next-button .btn-nexts button {
+    padding: 20px 110px;
+  }
+  #section3 .boxs1 {
+    border-radius: 20px;
+    padding: 30px 50px;
+    background-color: white;
+  }
+  #section3 .boxs1 .circle {
+    margin: 30px 90px 50px 90px;
+    border-radius: 50%;
+    background-color: #66A901;
+    color: white;
+    padding: 20px 15px;
+  }
+  #section3 .boxs1 .circle img {
+    padding: 10px 20px;
+    margin: 0px;
+    border-radius: 50%;
+  }
+  #section3 .boxs1 .circle2 {
+    margin: 30px 90px 50px 90px;
+    border-radius: 50%;
+    background-color: #66A901;
+    color: white;
+    padding: 20px 15px;
+  }
+  #section3 .boxs1 .circle2 img {
+    padding: 10px 15px;
+    margin: 0px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  #section3 .boxs1 .who {
+    color: #66A901;
+    text-align: center;
+  }
+  #section3 .boxs1 h3 {
+    text-align: center;
+  }
+  #section3 .boxs1 p {
+    text-align: center;
+    font-size: 18px;
+  }
+  #section3 .boxs1 .dif-btn {
+    text-align: center;
+  }
+  #section3 .boxs1 .dif-btn button {
+    padding: 20px 55px;
+    background-color: #66A901;
+    color: white;
+    border-radius: 30px;
+    border: none;
+  }
+  #section4 .section4 {
+    padding: 30px 50px;
+  }
+  #section4 .section4 .all-trainers {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .section6-all {
+    padding: 50px 0px 100px 100px;
+  }
+  #section8 .form {
+    padding-left: 70px;
+  }
+  #section8 .form2 input {
+    padding: 50px 170px;
+  }
+  #section8 .form3 button {
+    padding: 25px 210px;
+  }
+  #section8 .section8-right {
+    width: 50%;
+  }
+  .all-footer .text-footer {
+    padding-left: 50px;
+  }
+  .all-footer .icons-second {
+    padding-right: 60px;
+  }
+}
+@media (max-width: 800px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav .nav-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  nav .nav-right {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  #section1 {
+    padding: 30px 50px;
+  }
+  #section1 .section1-text {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  #section1 .section1-text .icons-first {
+    padding: 0px 300px;
+  }
+  #section1 .next-btn {
+    margin-left: 160px;
+  }
+  #section2 {
+    padding: 0px 100px;
+  }
+  #section2 .section2-text ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0px;
+  }
+  #section2 .all-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-right: 60px;
+  }
+  #section2 .all-inputs .input-one button {
+    margin-left: 5px;
+  }
+  #section2 .all-inputs .input-two button {
+    margin-left: 5px;
+  }
+  #section2 .all-inputs2 {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+  }
+  #section2 .all-inputs2 .input-one2 button {
+    margin-left: 5px;
+  }
+  #section2 .all-inputs2 .input-two2 button {
+    margin-left: 5px;
+  }
+  #section2 .next-button .btn-nexts {
+    margin-left: 90px;
+  }
+  .all-section3 {
+    display: flex;
+    flex-direction: column;
+  }
+  #section4 .section4 {
+    padding: 30px 3px;
+  }
+  #section4 .section4 .all-trainers {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #section5 .all-section5 {
+    display: flex;
+    flex-direction: column;
+  }
+  #section7 .all-basic {
+    display: flex;
+    flex-direction: column;
+  }
+  #section8 {
+    display: flex;
+    flex-direction: column;
+  }
+  #section8 .form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+  }
+  #section8 .form2 input {
+    padding: 30px 80px;
+  }
+  #section8 .form3 .texts-p {
+    display: flex;
+    flex-direction: column;
+  }
+  #section8 .form3 button {
+    padding: 25px 111px;
+  }
+  #section8 .texts-p .right1 {
+    padding-left: 5px;
+  }
+  footer .all-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .all-footer .text-footer {
+    padding-left: 0px;
+  }
+  footer .all-footer .footer-left {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .all-footer .footer-center .icons-second {
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+  }
+  .section6-all {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 100px 0px;
+  }
+  .section6-all .divone1 {
+    display: flex;
+  }
+}
+@media (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav .nav-left {
+    display: flex;
+    flex-direction: column;
+  }
+  nav .nav-right {
+    display: flex;
+    flex-direction: column;
+  }
+  nav .nav-right ul {
+    padding: 0px 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  #section1 .section1-text {
+    display: flex;
+    flex-direction: column;
+  }
+  #section1 .section1-text .icons-first {
+    padding: 0px 130px;
+  }
+  #section1 .next-btn {
+    margin: 0px;
+  }
+  #section2 {
+    padding: 50px 50px;
+  }
+  #section2 .next-button .btn-nexts {
+    margin-left: 0px;
+  }
+  #section2 .next-button .btn-nexts button {
+    padding: 20px 80px;
+  }
+  #section2 .all-inputs {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  #section2 .all-inputs .input-one button {
+    padding: 5px 75px;
+  }
+  #section2 .all-inputs .input-two button {
+    padding: 15px 85px;
+  }
+  #section2 .all-inputs2 {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  #section2 .all-inputs2 .input-one2 button {
+    padding: 15px 85px;
+  }
+  #section2 .all-inputs2 .input-two button {
+    padding: 5px 75px;
+  }
+  #section2 .all-inputs2 .input-two2 button {
+    padding: 15px 85px;
+  }
+  .all-section3 {
+    display: flex;
+    flex-direction: column;
+  }
+  #section4 .section4 .all-trainers {
+    row-gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #section5 .all-section5 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section6-all {
+    display: flex;
+    flex-direction: column;
+  }
+  .section6-all .divone1 {
+    display: flex;
+  }
+  #section7 .all-basic {
+    display: flex;
+    flex-direction: column;
+  }
+  #section8 {
+    display: flex;
+    flex-direction: column;
+  }
+  #section8 .section8-right {
+    width: 100%;
+  }
+  footer .all-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  footer .all-footer .footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  footer .all-footer .footer-center .icons-second {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
